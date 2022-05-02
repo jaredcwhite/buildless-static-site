@@ -1,4 +1,4 @@
-import { LitElement, html } from "https://cdn.jsdelivr.net/gh/lit/dist@2.2.2/core/lit-core.min.js"
+import { LitElement, html } from "lit"
 import LitCompStyles from "./lit_comp.css" assert { type: "css" }
 
 class LitComp extends LitElement {
