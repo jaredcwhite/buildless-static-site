@@ -1,0 +1,13 @@
+{
+  "name": "testfastify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-static": "^4.6.1"
+  }
+}

@@ -1,0 +1,11 @@
+@import "https://unpkg.com/open-props";
+@import "variables.css";
+
+body {
+  background: var(--bgcolor);
+  font-family: var(--font-sans);
+}
+
+p {
+  font-size: var(--paragraph-size);
+}

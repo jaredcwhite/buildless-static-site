@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hello World</title>
+
+    <!-- Polyfill CSS/JSON module imports -->
+    <script>window.esmsInitOptions = { polyfillEnable: ['css-modules', 'json-modules'] }</script>
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.4/dist/es-module-shims.js"></script>
+    <script async src="https://unpkg.com/construct-style-sheets-polyfill@3.1.0/dist/adoptedStyleSheets.js"></script>
+
+    <link href="/styles/index.css" rel="stylesheet" />
+    <script src="/javascript/index.js" type="module"></script>
+  </head>
+  <body>
+    <h1>The Statickest of Static Sites.</h1>
+
+	  <p>Hello world.</p>
+
+    <lit-comp style="margin-block-end: var(--size-4)"></lit-comp>
+
+    <vanilla-comp></vanilla-comp>
+
+  </body>
+</html>
