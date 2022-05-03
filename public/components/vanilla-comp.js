@@ -1,7 +1,7 @@
-import VanillaCompStyles from "./vanilla_comp.css" assert { type: "css" }
+import sheet from "./vanilla-comp.css" assert { type: "css" }
 
 class VanillaComp extends HTMLElement {
-  static styles = [VanillaCompStyles]
+  static styles = [sheet]
 
   constructor() {
     super()
@@ -12,7 +12,7 @@ class VanillaComp extends HTMLElement {
 
   connectedCallback() {
     this.shadowRoot.innerHTML = `
-      <p>Rendering a vanilla web component. Totally rad!</p>
+      <p>Rendering a vanilla web component. Totally rad! <slot></slot></p>
     `
   }
 }

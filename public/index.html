@@ -3,6 +3,8 @@
   <head>
     <title>Hello World</title>
 
+    <link href="/styles/index.css" rel="stylesheet" />
+
     <!-- Polyfill CSS/JSON module imports -->
     <script>window.esmsInitOptions = { polyfillEnable: ['css-modules', 'json-modules'] }</script>
     <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.4/dist/es-module-shims.js"></script>
@@ -24,17 +26,16 @@
       }
     </script>
 
-    <link href="/styles/index.css" rel="stylesheet" />
-    <script src="/javascript/index.js" type="module"></script>
+    <script src="/components/index.js" type="module"></script>
   </head>
   <body>
     <h1>The Statickest of Static Sites.</h1>
 
-	  <p>Hello world.</p>
+    <p>Hello world.</p>
 
-    <lit-comp style="margin-block-end: var(--size-4)"></lit-comp>
+    <lit-comp style="margin-block-end: var(--size-4)">🎉</lit-comp>
 
-    <vanilla-comp></vanilla-comp>
+    <vanilla-comp>🙌</vanilla-comp>
 
   </body>
 </html>
