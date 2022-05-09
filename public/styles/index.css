@@ -6,6 +6,29 @@ body {
   font-family: var(--font-sans);
 }
 
+header {
+  text-align: center;
+}
+
+main {
+  max-width: 100ch;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: var(--font-size-fluid-2);
+}
+
 p {
   font-size: var(--paragraph-size);
+}
+
+a {
+  color: var(--blue-9);
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-block-start: calc(var(--size-9) + var(--size-9));
 }

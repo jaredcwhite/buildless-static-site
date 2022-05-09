@@ -1,7 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <title>Hello World</title>
+    <title>A Very Static Hello World</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="/styles/index.css" rel="stylesheet" />
 
@@ -29,13 +32,26 @@
     <script src="/components/index.js" type="module"></script>
   </head>
   <body>
-    <h1>The Statickest of Static Sites.</h1>
+    <header>
+      <h1>The Statickest of Static Sites.</h1>
+    </header>
 
-    <p>Hello world.</p>
+    <main>
+      <p>Hello world.</p>
 
-    <lit-comp style="margin-block-end: var(--size-4)">🎉</lit-comp>
+      <lit-comp style="margin-block-end: var(--size-4)">🎉</lit-comp>
 
-    <vanilla-comp>🙌</vanilla-comp>
+      <vanilla-comp>🙌</vanilla-comp>
+    </main>
 
+    <footer>
+      <p>
+        <a href="https://github.com/jaredcwhite/buildless-static-site">View This Repo on GitHub ➤</a>
+      </p>
+
+      <p>
+        <a href="https://www.spicyweb.dev/buildless-modern-development-workflows-are-this-close-to-a-reality/">Read the Spicy Web Article ➤</a>
+      </p>
+    </footer>
   </body>
 </html>

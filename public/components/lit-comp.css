@@ -1,6 +1,6 @@
 :host {
   display: block;
-  width: max-content;
+  max-width: max-content;
   background: white;
   padding: 10px;
   border: 1px solid var(--cyan-4);
